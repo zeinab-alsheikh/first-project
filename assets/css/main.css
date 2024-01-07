@@ -566,7 +566,7 @@ header .login {
   gap: 60px;
 }
 .price-items {
-  width: calc((100% - 30px ) / 2 );
+  width: calc((100% - 30px) / 2);
 }
 .price-items .price-card {
   display: flex;
@@ -807,26 +807,42 @@ footer {
 }
 .footer-end p {
   color: var(--Grey-40, #656567);
-text-align: center;
-font-size: 14px;
-font-weight: 400;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
 }
 .footer-end hr {
-  margin-bottom: 20px ;
+  margin-bottom: 20px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .price-details {
     flex-wrap: wrap;
   }
 }
-@media  screen and (max-width:786px) {
+@media screen and (max-width: 786px) {
   .price-items-card {
     flex-direction: column;
   }
 }
-@media  screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
   .price-items-card {
     flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 991px) {
+  .price-sub {
+    padding: 15px;
+  }
+  .price-items-card {
+    padding: 0;
+  }
+  .price-card .price-item {
+    padding: 30px 15px 15px 15px;
+  }
+}
+@media screen and (max-width: 320px) {
+  nav {
+    display: none;
   }
 }
